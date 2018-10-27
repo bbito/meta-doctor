@@ -1262,7 +1262,7 @@ build/tools/jad-macosx/jad: downloads/jad158g.mac.intel.zip
 
 downloads/jad158g.mac.intel.zip:
 	mkdir -p downloads
-	curl -L -o $@ http://www.varaneckas.com/sites/default/files/jad/jad158g.mac.intel.zip
+	curl -L -o $@ https://varaneckas.com/jad/jad158g.mac.intel.zip
 
 build/tools/jad-linux/jad: downloads/jad158e.linux.static.zip
 	mkdir -p build/tools/jad-linux
@@ -1271,11 +1271,11 @@ build/tools/jad-linux/jad: downloads/jad158e.linux.static.zip
 
 downloads/jad158e.linux.static.zip:
 	mkdir -p downloads
-	curl -L -o $@ http://www.varaneckas.com/sites/default/files/jad/jad158e.linux.static.zip
+	curl -L -o $@ https://varaneckas.com/jad/jad158e.linux.static.zip
 
 ${JODE}:
 	mkdir -p downloads
-	curl -L -o $@ http://sourceforge.net/projects/jode/files/jode/1.1.2-pre1/jode-1.1.2-pre1.jar/download
+	curl -L -o $@ https://sourceforge.net/projects/jode/files/jode/1.1.2-pre1/jode-1.1.2-pre1.jar/download
 
 clobber:
 	rm -rf build
